@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
 
+## Setup 
+ Angular requires Node.js version 8.x or 10.x.
+        -To check your version, run node -v in a terminal/console window.
+        -To get Node.js, go to nodejs.org.
+        
+ Run `npm install -g @angular/cli@` to install  the Angular CLI 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
