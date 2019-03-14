@@ -4,8 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Setup 
  Angular requires Node.js version 8.x or 10.x.
-        -To check your version, run node -v in a terminal/console window.
-        -To get Node.js, go to nodejs.org.
+      \n -To check your version, run node -v in a terminal/console window.
+      \n-To get Node.js, go to nodejs.org.
         
  Run `npm install -g @angular/cli@` to install  the Angular CLI 
 
