@@ -1,15 +1,34 @@
-# Nist
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
 
 ## Setup 
- Angular requires Node.js version 8.x or 10.x.
+   ##### Step1 : Node.js setup
+ Angular requires Node.js version 10.x.
  
+-  Run `curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh` add the PPA to the system to install Nodejs on Ubuntu.
+-  Run `sudo bash  nodesource_setup.sh`
+- Run `sudo apt-get install nodejs` to install  Node.js 
+
           -To check your version, run node -v in a terminal/console window.
-      
-          -To get Node.js, go to nodejs.org.
-        
- Run `npm install -g @angular/cli@` to install  the Angular CLI 
+          
+You’ll also want to also install `npm`, the Node.js package manager. You can do this by typing :
+ 
+ - Run `sudo apt install npm`   to install modules and packages to use with Node.js
+ 
+			-To check your version, run npm-v in a terminal/console window.
+
+  ##### Step2 : Angular setup
+ - Run `sudo npm install -g @angular/cli@` to install  the Angular CLI 
+ 
+ - Run `npm install --save-dev @angular-devkit/build-angular` to install  @angular-devkit/build-angular as dev dependency. This package is newly introduced in Angular 6.0
+ 
+ ##### Step3 : Run the application
+
+The Angular CLI includes a server, so that you can easily build and serve your app locally.
+ - Run `cd cdcs_angular_demo_frontend/src/app`   to go to the workspace folder (app)
+
+- Run `ng serve --open`   to launch the server and  open the browser to http://localhost:4200/.
+
+The `ng serve` command launches the server, watches your files, and rebuilds the app as you make changes to those files
 
 ## Development server
 
